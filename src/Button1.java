@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;
 import javafx.scene.control.Button;
 
-public class JavaFxDemo extends Application  {
+public class Button1 extends Application  {
 
     Button button;
 
@@ -27,7 +27,7 @@ public class JavaFxDemo extends Application  {
         button.setOnAction(e -> System.out.println("JuuJuu"));
         
         
-        
+        // Is exactly the same as:
 //        button.setOnAction(new EventHandler<ActionEvent>() {
 //        	@Override
 //        	public void handle(ActionEvent event) {
